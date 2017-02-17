@@ -17,7 +17,7 @@ class Solution(object):
             else:
                 v2.append('0')
 
-        while i < min(len(v1), len(v2)):
+        while i < len(v1):
             delta = int(v1[i]) - int(v2[i]);
             if 0 < delta:
                 return 1
