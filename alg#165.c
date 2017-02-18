@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/compare-version-numbers/
 
 int compareVersion(char* version1, char* version2) {
-    char buf1[1024];
+	char buf1[1024];
 	char buf2[1024];
 	char* pchv1 = NULL;
 	char* pchv2 = NULL;
